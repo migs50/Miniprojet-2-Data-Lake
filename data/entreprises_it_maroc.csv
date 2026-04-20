@@ -1,0 +1,151 @@
+nom_entreprise,secteur,taille,ville_siege,site_web,type
+PixelConsulting SARL,Assurance,ETI,Ttouan,www.pixelconsultingsarl.ma,Banque
+TechInnovations LLC,Sante,ETI,Ttouan,www.techinnovationsllc.ma,SSII
+NexusServices SARL,Finance,PME,Mekns,www.nexusservicessarl.ma,Conseil
+NexusDigital LLC,Finance,ETI,Rabat,www.nexusdigitalllc.ma,Autre
+CodeSystems LLC,Informatique,Grande Entreprise,Agadir,www.codesystemsllc.ma,SSII
+NexusMaroc SA,Energie,PME,Casablanca,www.nexusmarocsa.ma,Autre
+SynapseDigital SARL,E-commerce,ETI,Agadir,www.synapsedigitalsarl.ma,Conseil
+NexusMaroc SA,Energie,Grande Entreprise,El Jadida,www.nexusmarocsa.ma,Conseil
+WebConsulting SARL,Finance,PME,Fs,www.webconsultingsarl.ma,Conseil
+PixelLabs LLC,Sante,Grande Entreprise,Casablanca,www.pixellabsllc.ma,Autre
+CodeSystems SA,Sante,ETI,Ttouan,www.codesystemssa.ma,Banque
+CloudSolutions LLC,E-commerce,Grande Entreprise,Casablanca,www.cloudsolutionsllc.ma,SSII
+PixelLabs SA,Energie,Startup,Settat,www.pixellabssa.ma,Produit
+NetConsulting SARL,Energie,Startup,Casablanca,www.netconsultingsarl.ma,Produit
+CyberSolutions SARL,Informatique,PME,El Jadida,www.cybersolutionssarl.ma,SSII
+DataServices SAS,Finance,Startup,Marrakech,www.dataservicessas.ma,Conseil
+CodeInnovations SAS,E-commerce,ETI,Mohammedia,www.codeinnovationssas.ma,Banque
+CodeInnovations SA,Assurance,PME,Casablanca,www.codeinnovationssa.ma,Autre
+SynapseInnovations SA,Assurance,ETI,Ttouan,www.synapseinnovationssa.ma,SSII
+CloudMaroc SARL,Energie,ETI,Casablanca,www.cloudmarocsarl.ma,SSII
+NetConsulting LLC,Informatique,Startup,Casablanca,www.netconsultingllc.ma,Telecom
+TechMaroc LLC,Sante,Startup,Casablanca,www.techmarocllc.ma,Produit
+WebDigital SA,Finance,ETI,Knitra,www.webdigitalsa.ma,Conseil
+CloudSystems SARL,Energie,PME,Rabat,www.cloudsystemssarl.ma,Produit
+SynapseLabs SA,Assurance,Startup,Rabat,www.synapselabssa.ma,SSII
+NexusServices LLC,Sante,Startup,Settat,www.nexusservicesllc.ma,SSII
+NexusSystems SARL,Informatique,Grande Entreprise,Casablanca,www.nexussystemssarl.ma,Telecom
+CodeLabs SARL,E-commerce,PME,Fs,www.codelabssarl.ma,SSII
+TechLabs LLC,Assurance,PME,Rabat,www.techlabsllc.ma,Telecom
+SynapseMaroc SAS,Energie,PME,Mekns,www.synapsemarocsas.ma,Conseil
+NetDigital LLC,E-commerce,Grande Entreprise,Tanger,www.netdigitalllc.ma,Telecom
+NexusConsulting SARL,Energie,Grande Entreprise,Knitra,www.nexusconsultingsarl.ma,Telecom
+CyberLabs LLC,Finance,Grande Entreprise,Marrakech,www.cyberlabsllc.ma,Autre
+CloudConsulting SA,Informatique,Startup,Rabat,www.cloudconsultingsa.ma,Autre
+DataSystems SA,E-commerce,Grande Entreprise,Casablanca,www.datasystemssa.ma,Autre
+WebSystems LLC,Sante,Startup,Rabat,www.websystemsllc.ma,Produit
+WebSystems SA,Informatique,PME,Casablanca,www.websystemssa.ma,Produit
+SynapseInnovations SAS,Informatique,Startup,Casablanca,www.synapseinnovationssas.ma,SSII
+CodeDigital LLC,E-commerce,PME,Casablanca,www.codedigitalllc.ma,Autre
+NexusDigital SA,E-commerce,Startup,Fs,www.nexusdigitalsa.ma,Produit
+CyberMaroc SA,Finance,Grande Entreprise,Casablanca,www.cybermarocsa.ma,SSII
+DataDigital SARL,Assurance,Startup,Rabat,www.datadigitalsarl.ma,Telecom
+SynapseConsulting SARL,Informatique,Grande Entreprise,Tanger,www.synapseconsultingsarl.ma,Banque
+SynapseInnovations SARL,Finance,PME,Tanger,www.synapseinnovationssarl.ma,Autre
+WebServices SA,Assurance,Grande Entreprise,Casablanca,www.webservicessa.ma,Banque
+NexusLabs SARL,Energie,Grande Entreprise,Casablanca,www.nexuslabssarl.ma,Conseil
+TechSolutions LLC,Assurance,Startup,Rabat,www.techsolutionsllc.ma,SSII
+CodeSolutions SA,E-commerce,Grande Entreprise,Tanger,www.codesolutionssa.ma,Conseil
+CodeServices LLC,Finance,PME,Marrakech,www.codeservicesllc.ma,Autre
+NetMaroc SARL,Finance,Grande Entreprise,Rabat,www.netmarocsarl.ma,Telecom
+DataDigital SA,Finance,PME,Ttouan,www.datadigitalsa.ma,Telecom
+CodeServices SAS,Energie,ETI,Agadir,www.codeservicessas.ma,Banque
+CloudDigital LLC,Sante,Startup,Casablanca,www.clouddigitalllc.ma,Telecom
+CloudLabs SARL,Informatique,ETI,Agadir,www.cloudlabssarl.ma,Telecom
+DataMaroc SAS,Assurance,ETI,Casablanca,www.datamarocsas.ma,Autre
+CodeSolutions SARL,Assurance,Startup,Fs,www.codesolutionssarl.ma,Produit
+CyberServices SARL,Assurance,PME,Casablanca,www.cyberservicessarl.ma,Conseil
+NexusConsulting SARL,Finance,Grande Entreprise,El Jadida,www.nexusconsultingsarl.ma,Conseil
+NexusLabs SA,Energie,ETI,Casablanca,www.nexuslabssa.ma,Produit
+WebSystems SA,Sante,ETI,Casablanca,www.websystemssa.ma,SSII
+SynapseSystems SA,Informatique,PME,Fs,www.synapsesystemssa.ma,Conseil
+NetLabs SARL,Informatique,Grande Entreprise,Casablanca,www.netlabssarl.ma,Conseil
+TechServices SARL,Finance,ETI,Casablanca,www.techservicessarl.ma,Autre
+PixelSolutions SAS,Sante,Grande Entreprise,Rabat,www.pixelsolutionssas.ma,Conseil
+NexusConsulting SA,Assurance,Grande Entreprise,Casablanca,www.nexusconsultingsa.ma,Produit
+CodeMaroc LLC,Energie,ETI,Tanger,www.codemarocllc.ma,SSII
+CodeSystems SARL,Sante,Startup,Rabat,www.codesystemssarl.ma,SSII
+NexusDigital SAS,Assurance,ETI,Rabat,www.nexusdigitalsas.ma,Produit
+TechMaroc SAS,Energie,Grande Entreprise,Rabat,www.techmarocsas.ma,SSII
+CloudSystems SAS,Informatique,Grande Entreprise,Casablanca,www.cloudsystemssas.ma,Telecom
+SynapseSystems LLC,E-commerce,PME,Ttouan,www.synapsesystemsllc.ma,Autre
+SynapseSolutions SA,Finance,Startup,Rabat,www.synapsesolutionssa.ma,Produit
+NexusLabs SA,Energie,Grande Entreprise,Tanger,www.nexuslabssa.ma,Conseil
+NexusInnovations SAS,Sante,PME,Casablanca,www.nexusinnovationssas.ma,Conseil
+NetSolutions SARL,Energie,Startup,Tanger,www.netsolutionssarl.ma,Autre
+TechSystems LLC,Finance,ETI,Agadir,www.techsystemsllc.ma,Autre
+WebLabs LLC,Informatique,Startup,Rabat,www.weblabsllc.ma,Conseil
+CyberSolutions SA,Finance,ETI,Rabat,www.cybersolutionssa.ma,Produit
+PixelSolutions SA,Assurance,Grande Entreprise,Casablanca,www.pixelsolutionssa.ma,Produit
+PixelInnovations SAS,Energie,Startup,Rabat,www.pixelinnovationssas.ma,Produit
+DataMaroc SAS,Assurance,Startup,Rabat,www.datamarocsas.ma,Autre
+WebMaroc SARL,Informatique,Startup,Knitra,www.webmarocsarl.ma,SSII
+NetConsulting LLC,E-commerce,PME,Tanger,www.netconsultingllc.ma,Conseil
+TechInnovations SARL,Assurance,Grande Entreprise,Rabat,www.techinnovationssarl.ma,Telecom
+CodeInnovations LLC,Informatique,ETI,Rabat,www.codeinnovationsllc.ma,Telecom
+DataDigital SARL,Finance,ETI,Casablanca,www.datadigitalsarl.ma,Autre
+WebLabs SAS,Energie,PME,Rabat,www.weblabssas.ma,Banque
+DataDigital SA,E-commerce,Startup,Marrakech,www.datadigitalsa.ma,SSII
+PixelDigital LLC,Assurance,Grande Entreprise,Rabat,www.pixeldigitalllc.ma,Banque
+CloudSolutions SAS,Assurance,PME,Oujda,www.cloudsolutionssas.ma,Autre
+CloudInnovations SARL,Assurance,ETI,Casablanca,www.cloudinnovationssarl.ma,Telecom
+CyberMaroc SARL,Informatique,Grande Entreprise,Casablanca,www.cybermarocsarl.ma,Telecom
+DataDigital SA,Assurance,ETI,Oujda,www.datadigitalsa.ma,Autre
+TechLabs LLC,Energie,Grande Entreprise,Tanger,www.techlabsllc.ma,Telecom
+CloudSolutions SARL,Assurance,Grande Entreprise,Casablanca,www.cloudsolutionssarl.ma,Autre
+WebInnovations SARL,Informatique,Startup,Casablanca,www.webinnovationssarl.ma,Banque
+CodeServices SARL,Finance,ETI,Marrakech,www.codeservicessarl.ma,Telecom
+DataMaroc SAS,E-commerce,ETI,Tanger,www.datamarocsas.ma,Conseil
+SynapseLabs LLC,Finance,Startup,Ttouan,www.synapselabsllc.ma,Conseil
+CyberServices SARL,Informatique,PME,Knitra,www.cyberservicessarl.ma,Telecom
+DataConsulting SA,E-commerce,ETI,Tanger,www.dataconsultingsa.ma,Conseil
+CodeSolutions SA,Sante,Startup,Casablanca,www.codesolutionssa.ma,Banque
+CodeConsulting SARL,Informatique,PME,Casablanca,www.codeconsultingsarl.ma,Telecom
+NetConsulting SAS,E-commerce,Grande Entreprise,Casablanca,www.netconsultingsas.ma,Autre
+NexusMaroc SAS,Energie,Grande Entreprise,Marrakech,www.nexusmarocsas.ma,Autre
+PixelConsulting LLC,Assurance,PME,Casablanca,www.pixelconsultingllc.ma,Telecom
+WebInnovations SARL,Informatique,Startup,Tanger,www.webinnovationssarl.ma,Telecom
+WebSystems SAS,Energie,Startup,Agadir,www.websystemssas.ma,Conseil
+NexusDigital SAS,Assurance,Startup,Casablanca,www.nexusdigitalsas.ma,Conseil
+SynapseSolutions SA,Sante,ETI,Rabat,www.synapsesolutionssa.ma,Telecom
+CyberDigital LLC,Energie,Startup,Tanger,www.cyberdigitalllc.ma,Autre
+TechDigital SAS,Sante,Startup,Marrakech,www.techdigitalsas.ma,Banque
+CloudSystems SARL,Informatique,PME,Rabat,www.cloudsystemssarl.ma,Telecom
+CodeSolutions SA,Energie,ETI,Casablanca,www.codesolutionssa.ma,Autre
+NetDigital SA,Energie,PME,Tanger,www.netdigitalsa.ma,Produit
+NetSystems SAS,Finance,PME,Rabat,www.netsystemssas.ma,Autre
+TechInnovations SAS,Assurance,Grande Entreprise,Mekns,www.techinnovationssas.ma,Autre
+PixelInnovations SAS,E-commerce,ETI,Casablanca,www.pixelinnovationssas.ma,SSII
+NexusSystems SARL,Sante,ETI,Knitra,www.nexussystemssarl.ma,Produit
+CyberDigital SARL,Finance,Grande Entreprise,Casablanca,www.cyberdigitalsarl.ma,Produit
+PixelInnovations SARL,Sante,Grande Entreprise,Rabat,www.pixelinnovationssarl.ma,Telecom
+WebLabs LLC,E-commerce,ETI,Mohammedia,www.weblabsllc.ma,Telecom
+WebDigital SAS,E-commerce,Grande Entreprise,Rabat,www.webdigitalsas.ma,SSII
+DataSolutions SA,Finance,Grande Entreprise,Rabat,www.datasolutionssa.ma,Conseil
+CyberMaroc SARL,Energie,Grande Entreprise,Casablanca,www.cybermarocsarl.ma,SSII
+DataDigital SAS,Sante,ETI,Casablanca,www.datadigitalsas.ma,SSII
+NexusSystems SA,E-commerce,ETI,Fs,www.nexussystemssa.ma,Telecom
+CodeDigital LLC,Informatique,ETI,Rabat,www.codedigitalllc.ma,Produit
+NexusConsulting LLC,Informatique,PME,Rabat,www.nexusconsultingllc.ma,Telecom
+NexusDigital SA,Finance,ETI,Casablanca,www.nexusdigitalsa.ma,Autre
+TechLabs LLC,Finance,PME,Casablanca,www.techlabsllc.ma,Produit
+NexusConsulting LLC,E-commerce,ETI,Settat,www.nexusconsultingllc.ma,Banque
+NetInnovations SAS,Sante,Startup,Casablanca,www.netinnovationssas.ma,Banque
+CodeServices SARL,Energie,Grande Entreprise,Casablanca,www.codeservicessarl.ma,Produit
+WebServices LLC,Informatique,PME,Tanger,www.webservicesllc.ma,Conseil
+CloudMaroc SA,Informatique,ETI,Casablanca,www.cloudmarocsa.ma,Autre
+CodeServices SAS,E-commerce,PME,Agadir,www.codeservicessas.ma,Produit
+WebConsulting SAS,Sante,Startup,Casablanca,www.webconsultingsas.ma,Telecom
+NetInnovations SAS,E-commerce,PME,Tanger,www.netinnovationssas.ma,Conseil
+PixelServices SARL,Sante,Startup,Ttouan,www.pixelservicessarl.ma,Produit
+DataInnovations SAS,Informatique,Grande Entreprise,Casablanca,www.datainnovationssas.ma,Produit
+TechDigital LLC,Assurance,ETI,Casablanca,www.techdigitalllc.ma,Autre
+DataLabs SA,Finance,PME,Rabat,www.datalabssa.ma,Autre
+NexusLabs SAS,E-commerce,Startup,Casablanca,www.nexuslabssas.ma,Banque
+CloudMaroc SARL,Energie,PME,Casablanca,www.cloudmarocsarl.ma,SSII
+TechMaroc SA,Finance,ETI,Tanger,www.techmarocsa.ma,Autre
+TechMaroc LLC,Sante,Grande Entreprise,Knitra,www.techmarocllc.ma,Produit
+DataSolutions SARL,E-commerce,Startup,Fs,www.datasolutionssarl.ma,Telecom
+CloudInnovations SAS,Energie,PME,Casablanca,www.cloudinnovationssas.ma,SSII
+CodeLabs SA,E-commerce,PME,Rabat,www.codelabssa.ma,Conseil

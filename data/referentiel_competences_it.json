@@ -1,0 +1,174 @@
+{
+  "familles": {
+    "langages": {
+      "python": [
+        "python",
+        "python3",
+        "py"
+      ],
+      "javascript": [
+        "javascript",
+        "js",
+        "node.js",
+        "nodejs",
+        "node"
+      ],
+      "java": [
+        "java",
+        "java8",
+        "java11",
+        "java17"
+      ],
+      "sql": [
+        "sql",
+        "mysql",
+        "postgresql",
+        "postgres",
+        "oracle",
+        "tsql"
+      ],
+      "r": [
+        "r",
+        "rlang",
+        "r-studio"
+      ],
+      "php": [
+        "php",
+        "laravel",
+        "symfony"
+      ]
+    },
+    "frameworks_web": {
+      "react": [
+        "react",
+        "reactjs",
+        "react.js"
+      ],
+      "angular": [
+        "angular",
+        "angularjs"
+      ],
+      "django": [
+        "django",
+        "django rest"
+      ],
+      "spring": [
+        "spring",
+        "spring boot",
+        "springboot"
+      ],
+      "vuejs": [
+        "vue",
+        "vue.js",
+        "vuejs"
+      ]
+    },
+    "data_engineering": {
+      "spark": [
+        "spark",
+        "apache spark",
+        "pyspark"
+      ],
+      "kafka": [
+        "kafka",
+        "apache kafka"
+      ],
+      "airflow": [
+        "airflow",
+        "apache airflow"
+      ],
+      "dbt": [
+        "dbt",
+        "data build tool"
+      ],
+      "hadoop": [
+        "hadoop",
+        "hdfs",
+        "mapreduce"
+      ]
+    },
+    "cloud": {
+      "aws": [
+        "aws",
+        "amazon web services",
+        "ec2",
+        "s3",
+        "lambda"
+      ],
+      "gcp": [
+        "gcp",
+        "google cloud",
+        "bigquery",
+        "cloud storage"
+      ],
+      "azure": [
+        "azure",
+        "microsoft azure",
+        "synapse",
+        "azure devops"
+      ]
+    },
+    "bi_analytics": {
+      "power_bi": [
+        "power bi",
+        "powerbi",
+        "pbi"
+      ],
+      "tableau": [
+        "tableau",
+        "tableau desktop"
+      ],
+      "metabase": [
+        "metabase"
+      ],
+      "looker": [
+        "looker",
+        "looker studio"
+      ],
+      "excel": [
+        "excel",
+        "excel avance",
+        "vba"
+      ]
+    },
+    "devops_infra": {
+      "docker": [
+        "docker",
+        "docker compose"
+      ],
+      "kubernetes": [
+        "kubernetes",
+        "k8s"
+      ],
+      "jenkins": [
+        "jenkins",
+        "ci/cd"
+      ],
+      "gitlab": [
+        "gitlab",
+        "gitlab ci"
+      ],
+      "terraform": [
+        "terraform"
+      ],
+      "linux": [
+        "linux",
+        "bash",
+        "shell"
+      ]
+    },
+    "methodologies": {
+      "agile": [
+        "agile",
+        "scrum",
+        "kanban",
+        "sprint"
+      ],
+      "git": [
+        "git",
+        "github",
+        "bitbucket"
+      ]
+    }
+  }
+}

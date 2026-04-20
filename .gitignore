@@ -1,0 +1,22 @@
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dossiers d'environnement virtuel
+venv/
+.venv/
+env/
+.env
+
+# Fichiers de configuration IDE/Editeur
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac OS
+.DS_Store
+
+# Notebooks Jupyter (S'il y en a)
+.ipynb_checkpoints/
