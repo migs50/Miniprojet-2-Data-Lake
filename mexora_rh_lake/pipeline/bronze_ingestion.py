@@ -1,61 +1,59 @@
 import json
 import os
-import shutil
 from datetime import datetime
 
-def ingest_to_bronze(raw_file_path, bronze_path):
+def ingerer_bronze(filepath_source: str, data_lake_root: str) -> dict:
     """
-    Ingere les donnees JSON dans la zone Bronze.
-    Partitionnement dynamique: bronze/<source>/<YYYY_MM>/offres_raw.json
+    Charge les données brutes dans la zone Bronze sans aucune modification.
+    Partitionne par source et par mois de publication.
+
+    Principe fondamental : la zone Bronze est IMMUABLE.
+    On ne modifie JAMAIS les données une fois chargées en Bronze.
+    C'est l'archive fidèle de ce qui a été reçu.
     """
-    print(f"\n[BRONZE] Debut de l'ingestion depuis {raw_file_path}...")
-    
-    # Lecture des donnees brutes
-    with open(raw_file_path, 'r', encoding='utf-8') as f:
-        offres = json.load(f)
-        
+    with open(filepath_source, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    offres = data.get('offres', [])
+    stats = {'total': len(offres), 'par_source': {}, 'par_mois': {}}
+
+    # Partitionnement par source et par mois
     partitions = {}
-
     for offre in offres:
-        source = offre.get('source', 'inconnue')
+        source = offre.get('source', 'inconnu').lower().replace(' ', '_')
         date_pub = offre.get('date_publication', '')
-        
-        annee_mois = "inconnue"
-        if date_pub:
-            # Essayer de parser la date pour partitionnement
-            try:
-                dt = datetime.strptime(date_pub, "%Y-%m-%d")
-                annee_mois = dt.strftime("%Y_%m")
-            except ValueError:
-                try:
-                    dt = datetime.strptime(date_pub, "%d/%m/%Y")
-                    annee_mois = dt.strftime("%Y_%m")
-                except ValueError:
-                    pass
-                    
-        cle_partition = (source, annee_mois)
-        if cle_partition not in partitions:
-            partitions[cle_partition] = []
-            
-        partitions[cle_partition].append(offre)
-        
-    # Ecriture des partitions
-    for (source, annee_mois), donnees in partitions.items():
-        partition_dir = os.path.join(bronze_path, source, annee_mois)
-        os.makedirs(partition_dir, exist_ok=True)
-        
-        file_path = os.path.join(partition_dir, "offres_raw.json")
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(donnees, f, indent=2, ensure_ascii=False)
-            
-    print(f"[OK] Ingestion terminee : {len(offres)} offres reparties dans {len(partitions)} partitions.")
 
-if __name__ == "__main__":
-    project_root = os.path.dirname(os.path.dirname(__file__))
-    raw_json = os.path.join(project_root, "data", "offres_emploi_it_maroc.json")
-    bronze = os.path.join(project_root, "data_lake", "bronze")
-    
-    if os.path.exists(bronze):
-        shutil.rmtree(bronze)
-        
-    ingest_to_bronze(raw_json, bronze)
+        try:
+            mois_partition = datetime.strptime(date_pub[:7], '%Y-%m').strftime('%Y_%m')
+        except (ValueError, TypeError):
+            mois_partition = 'date_inconnue'
+
+        cle = f"{source}/{mois_partition}"
+        if cle not in partitions:
+            partitions[cle] = []
+        partitions[cle].append(offre)
+
+    # Écriture dans Bronze
+    nb_fichiers = 0
+    for partition, offres_partition in partitions.items():
+        chemin_dir = os.path.join(data_lake_root, 'bronze', partition)
+        os.makedirs(chemin_dir, exist_ok=True)
+
+        chemin_fichier = os.path.join(chemin_dir, 'offres_raw.json')
+        with open(chemin_fichier, 'w', encoding='utf-8') as f:
+            json.dump({
+                'metadata': {
+                    'source_fichier': filepath_source,
+                    'date_ingestion': datetime.now().isoformat(),
+                    'partition': partition,
+                    'nb_offres': len(offres_partition)
+                },
+                'offres': offres_partition
+            }, f, ensure_ascii=False, indent=2)
+
+        nb_fichiers += 1
+        source_nom = partition.split('/')[0]
+        stats['par_source'][source_nom] = stats['par_source'].get(source_nom, 0) + len(offres_partition)
+
+    print(f"[BRONZE]{stats['total']} offres ingérées dans{nb_fichiers} partitions")
+    return stats

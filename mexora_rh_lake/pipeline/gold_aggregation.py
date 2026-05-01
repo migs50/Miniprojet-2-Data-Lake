@@ -1,79 +1,139 @@
 import duckdb
-import os
+from pathlib import Path
 
-def creer_connexion(silver_path):
+def construire_gold(data_lake_root: str):
+    """
+    Construit toutes les tables Gold depuis les données Silver.
+    Utilise DuckDB pour les requêtes SQL directement sur les fichiers Parquet.
+    """
+    silver_offres  = f"{data_lake_root}/silver/offres_clean/offres_clean.parquet"
+    silver_comp    = f"{data_lake_root}/silver/competences_extraites/competences.parquet"
+    gold_path      = Path(data_lake_root) / 'gold'
+    gold_path.mkdir(parents=True, exist_ok=True)
+
     con = duckdb.connect()
-    p_offres = os.path.join(silver_path, "offres_clean", "offres_clean.parquet").replace("\\", "/")
-    p_comp = os.path.join(silver_path, "competences_extraites", "competences.parquet").replace("\\", "/")
-    con.execute(f"CREATE VIEW offres AS SELECT * FROM read_parquet('{p_offres}')")
-    con.execute(f"CREATE VIEW competences AS SELECT * FROM read_parquet('{p_comp}')")
-    return con
 
-def construire_gold(silver_path, gold_path):
-    print("\n[GOLD] Calcul des aggregats et stockage via DuckDB...")
-    os.makedirs(gold_path, exist_ok=True)
-    con = creer_connexion(silver_path)
-    
-    # 1. Top Competences
-    sql_comp = """
-        SELECT competence_canonique AS competence, famille,
-               COUNT(DISTINCT id_offre) AS nb_offres,
-               STRING_AGG(DISTINCT categorie_poste, ', ') AS profils_demandeurs
-        FROM competences
-        WHERE competence_canonique IS NOT NULL AND competence_canonique != 'None'
-        GROUP BY competence_canonique, famille
+    # ── Table Gold 1 : Top compétences par profil ──────────────────────────
+    print("[GOLD] Construction top_competences...")
+    df_top_comp = con.execute(f"""
+        SELECT
+            profil,
+            famille,
+            competence,
+            COUNT(DISTINCT id_offre)                    AS nb_offres_mentionnent,
+            ROUND(COUNT(DISTINCT id_offre) * 100.0 /
+                (SELECT COUNT(DISTINCT id_offre) FROM '{silver_offres}'), 2)
+                                                        AS pct_offres_total,
+            RANK() OVER (
+                PARTITION BY profil
+                ORDER BY COUNT(DISTINCT id_offre) DESC
+            )                                           AS rang_dans_profil
+        FROM '{silver_comp}'
+        WHERE competence != 'non_détecté'
+        GROUP BY profil, famille, competence
+        ORDER BY profil, rang_dans_profil
+    """).df()
+    df_top_comp.to_parquet(gold_path / 'top_competences.parquet', index=False)
+
+    # ── Table Gold 2 : Salaires par profil et ville ────────────────────────
+    print("[GOLD] Construction salaires_par_profil...")
+    df_salaires = con.execute(f"""
+        SELECT
+            profil_normalise        AS profil,
+            ville_std               AS ville,
+            type_contrat_std        AS type_contrat,
+            COUNT(*)                AS nb_offres,
+            COUNT(*) FILTER (WHERE salaire_connu)
+                                    AS nb_offres_avec_salaire,
+            ROUND(MEDIAN(salaire_median_mad) FILTER (WHERE salaire_connu), 0)
+                                    AS salaire_median_mad,
+            ROUND(AVG(salaire_median_mad) FILTER (WHERE salaire_connu), 0)
+                                    AS salaire_moyen_mad,
+            ROUND(PERCENTILE_CONT(0.25) WITHIN GROUP
+                (ORDER BY salaire_median_mad) FILTER (WHERE salaire_connu), 0)
+                                    AS salaire_q1_mad,
+            ROUND(PERCENTILE_CONT(0.75) WITHIN GROUP
+                (ORDER BY salaire_median_mad) FILTER (WHERE salaire_connu), 0)
+                                    AS salaire_q3_mad,
+            ROUND(MIN(salaire_min_mad) FILTER (WHERE salaire_connu), 0)
+                                    AS salaire_min_observe,
+            ROUND(MAX(salaire_max_mad) FILTER (WHERE salaire_connu), 0)
+                                    AS salaire_max_observe
+        FROM '{silver_offres}'
+        GROUP BY profil_normalise, ville_std, type_contrat_std
+        HAVING COUNT(*) >= 5    -- minimum 5 offres pour fiabilité statistique
         ORDER BY nb_offres DESC
-    """
-    df_top = con.execute(sql_comp).df()
-    for col in df_top.select_dtypes(include=["object"]).columns:
-        df_top[col] = df_top[col].apply(lambda x: str(x) if x else "")
-    df_top.to_parquet(os.path.join(gold_path, "top_competences.parquet"))
-    
-    # 2. Salaires par Profil
-    sql_sal = """
-        SELECT categorie_poste, ville_clean, type_contrat,
-               COUNT(*) AS nb_offres,
-               ROUND(MEDIAN(salaire_median_mad), 0) AS salaire_median_mad,
-               MIN(salaire_min_mad) AS salaire_min_mad, MAX(salaire_max_mad) AS salaire_max_mad
-        FROM offres
-        WHERE salaire_disponible = 1 AND salaire_median_mad BETWEEN 3000 AND 100000
-          AND categorie_poste != 'Autre'
-        GROUP BY categorie_poste, ville_clean, type_contrat
-        HAVING nb_offres >= 2
-    """
-    df_sal = con.execute(sql_sal).df()
-    df_sal.to_parquet(os.path.join(gold_path, "salaires_par_profil.parquet"))
-    
-    # 3. Offres par ville
-    sql_ville = """
-        SELECT ville_clean, categorie_poste, type_contrat,
-               COUNT(*) as nb_offres, ROUND(MEDIAN(salaire_median_mad), 0) as salaire_median
-        FROM offres
-        GROUP BY ville_clean, categorie_poste, type_contrat
-    """
-    df_ville = con.execute(sql_ville).df()
-    df_ville.to_parquet(os.path.join(gold_path, "offres_par_ville.parquet"))
-    
-    # 4. Entreprises recruteurs
-    sql_ent = """
-        SELECT entreprise, ville_clean,
-               COUNT(*) AS nb_offres_totales,
-               COUNT(DISTINCT categorie_poste) AS profils_differents,
-               ROUND(MEDIAN(CASE WHEN salaire_disponible = 1 THEN salaire_median_mad END), 0) AS med_salaire
-        FROM offres
-        GROUP BY entreprise, ville_clean
-    """
-    df_ent = con.execute(sql_ent).df()
-    df_ent.to_parquet(os.path.join(gold_path, "entreprises_recruteurs.parquet"))
-    
-    # 5. Tendances
-    sql_tend = """
-        SELECT source, type_contrat, COUNT(*) as nb_total
-        FROM offres
-        GROUP BY source, type_contrat
-    """
-    df_tend = con.execute(sql_tend).df()
-    df_tend.to_parquet(os.path.join(gold_path, "tendances_mensuelles.parquet"))
-    
-    print("[OK] Les 5 tables Gold ont ete generees avec succes.")
+    """).df()
+    df_salaires.to_parquet(gold_path / 'salaires_par_profil.parquet', index=False)
+
+    # ── Table Gold 3 : Volume d'offres par ville et profil ─────────────────
+    print("[GOLD] Construction offres_par_ville...")
+    df_villes = con.execute(f"""
+        SELECT
+            ville_std                           AS ville,
+            region_admin,
+            profil_normalise                    AS profil,
+            annee,
+            mois,
+            COUNT(*)                            AS nb_offres,
+            COUNT(*) FILTER (WHERE teletravail ILIKE '%télétravail%'
+                              OR teletravail ILIKE '%remote%'
+                              OR teletravail ILIKE '%hybride%')
+                                                AS nb_offres_remote,
+            ROUND(COUNT(*) FILTER (WHERE teletravail ILIKE '%télétravail%'
+                              OR teletravail ILIKE '%remote%'
+                              OR teletravail ILIKE '%hybride%') * 100.0
+                  / NULLIF(COUNT(*), 0), 1)     AS pct_remote
+        FROM '{silver_offres}'
+        GROUP BY ville_std, region_admin, profil_normalise, annee, mois
+        ORDER BY nb_offres DESC
+    """).df()
+    df_villes.to_parquet(gold_path / 'offres_par_ville.parquet', index=False)
+
+    # ── Table Gold 4 : Entreprises les plus recruteurs ─────────────────────
+    print("[GOLD] Construction entreprises_recruteurs...")
+    df_entreprises = con.execute(f"""
+        SELECT
+            entreprise,
+            ville_std                               AS ville,
+            COUNT(*)                                AS nb_offres_publiees,
+            COUNT(DISTINCT profil_normalise)        AS nb_profils_differents,
+            ROUND(AVG(salaire_median_mad) FILTER (WHERE salaire_connu), 0)
+                                                    AS salaire_moyen_propose,
+            ARRAY_AGG(DISTINCT profil_normalise
+                      ORDER BY profil_normalise)    AS profils_recrutes,
+            MIN(date_publication)                   AS premiere_offre,
+            MAX(date_publication)                   AS derniere_offre
+        FROM '{silver_offres}'
+        WHERE entreprise IS NOT NULL
+          AND entreprise != ''
+        GROUP BY entreprise, ville_std
+        HAVING COUNT(*) >= 3
+        ORDER BY nb_offres_publiees DESC
+        LIMIT 100
+    """).df()
+    df_entreprises.to_parquet(gold_path / 'entreprises_recruteurs.parquet', index=False)
+
+    # ── Table Gold 5 : Tendances mensuelles ───────────────────────────────
+    print("[GOLD] Construction tendances_mensuelles...")
+    df_tendances = con.execute(f"""
+        SELECT
+            annee,
+            mois,
+            profil_normalise                        AS profil,
+            COUNT(*)                                AS nb_offres,
+            ROUND(AVG(salaire_median_mad) FILTER (WHERE salaire_connu), 0)
+                                                    AS salaire_moyen_mois,
+            -- Évolution vs mois précédent
+            LAG(COUNT(*)) OVER (
+                PARTITION BY profil_normalise
+                ORDER BY annee, mois
+            )                                       AS nb_offres_mois_precedent
+        FROM '{silver_offres}'
+        GROUP BY annee, mois, profil_normalise
+        ORDER BY profil_normalise, annee, mois
+    """).df()
+    df_tendances.to_parquet(gold_path / 'tendances_mensuelles.parquet', index=False)
+
     con.close()
+    print(f"[GOLD] 5 tables Gold construites dans{gold_path}")

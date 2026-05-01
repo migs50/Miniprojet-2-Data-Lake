@@ -1,151 +1,201 @@
 nom_entreprise,secteur,taille,ville_siege,site_web,type
-PixelConsulting SARL,Assurance,ETI,Ttouan,www.pixelconsultingsarl.ma,Banque
-TechInnovations LLC,Sante,ETI,Ttouan,www.techinnovationsllc.ma,SSII
-NexusServices SARL,Finance,PME,Mekns,www.nexusservicessarl.ma,Conseil
-NexusDigital LLC,Finance,ETI,Rabat,www.nexusdigitalllc.ma,Autre
-CodeSystems LLC,Informatique,Grande Entreprise,Agadir,www.codesystemsllc.ma,SSII
-NexusMaroc SA,Energie,PME,Casablanca,www.nexusmarocsa.ma,Autre
-SynapseDigital SARL,E-commerce,ETI,Agadir,www.synapsedigitalsarl.ma,Conseil
-NexusMaroc SA,Energie,Grande Entreprise,El Jadida,www.nexusmarocsa.ma,Conseil
-WebConsulting SARL,Finance,PME,Fs,www.webconsultingsarl.ma,Conseil
-PixelLabs LLC,Sante,Grande Entreprise,Casablanca,www.pixellabsllc.ma,Autre
-CodeSystems SA,Sante,ETI,Ttouan,www.codesystemssa.ma,Banque
-CloudSolutions LLC,E-commerce,Grande Entreprise,Casablanca,www.cloudsolutionsllc.ma,SSII
-PixelLabs SA,Energie,Startup,Settat,www.pixellabssa.ma,Produit
-NetConsulting SARL,Energie,Startup,Casablanca,www.netconsultingsarl.ma,Produit
-CyberSolutions SARL,Informatique,PME,El Jadida,www.cybersolutionssarl.ma,SSII
-DataServices SAS,Finance,Startup,Marrakech,www.dataservicessas.ma,Conseil
-CodeInnovations SAS,E-commerce,ETI,Mohammedia,www.codeinnovationssas.ma,Banque
-CodeInnovations SA,Assurance,PME,Casablanca,www.codeinnovationssa.ma,Autre
-SynapseInnovations SA,Assurance,ETI,Ttouan,www.synapseinnovationssa.ma,SSII
-CloudMaroc SARL,Energie,ETI,Casablanca,www.cloudmarocsarl.ma,SSII
-NetConsulting LLC,Informatique,Startup,Casablanca,www.netconsultingllc.ma,Telecom
-TechMaroc LLC,Sante,Startup,Casablanca,www.techmarocllc.ma,Produit
-WebDigital SA,Finance,ETI,Knitra,www.webdigitalsa.ma,Conseil
-CloudSystems SARL,Energie,PME,Rabat,www.cloudsystemssarl.ma,Produit
-SynapseLabs SA,Assurance,Startup,Rabat,www.synapselabssa.ma,SSII
-NexusServices LLC,Sante,Startup,Settat,www.nexusservicesllc.ma,SSII
-NexusSystems SARL,Informatique,Grande Entreprise,Casablanca,www.nexussystemssarl.ma,Telecom
-CodeLabs SARL,E-commerce,PME,Fs,www.codelabssarl.ma,SSII
-TechLabs LLC,Assurance,PME,Rabat,www.techlabsllc.ma,Telecom
-SynapseMaroc SAS,Energie,PME,Mekns,www.synapsemarocsas.ma,Conseil
-NetDigital LLC,E-commerce,Grande Entreprise,Tanger,www.netdigitalllc.ma,Telecom
-NexusConsulting SARL,Energie,Grande Entreprise,Knitra,www.nexusconsultingsarl.ma,Telecom
-CyberLabs LLC,Finance,Grande Entreprise,Marrakech,www.cyberlabsllc.ma,Autre
-CloudConsulting SA,Informatique,Startup,Rabat,www.cloudconsultingsa.ma,Autre
-DataSystems SA,E-commerce,Grande Entreprise,Casablanca,www.datasystemssa.ma,Autre
-WebSystems LLC,Sante,Startup,Rabat,www.websystemsllc.ma,Produit
-WebSystems SA,Informatique,PME,Casablanca,www.websystemssa.ma,Produit
-SynapseInnovations SAS,Informatique,Startup,Casablanca,www.synapseinnovationssas.ma,SSII
-CodeDigital LLC,E-commerce,PME,Casablanca,www.codedigitalllc.ma,Autre
-NexusDigital SA,E-commerce,Startup,Fs,www.nexusdigitalsa.ma,Produit
-CyberMaroc SA,Finance,Grande Entreprise,Casablanca,www.cybermarocsa.ma,SSII
-DataDigital SARL,Assurance,Startup,Rabat,www.datadigitalsarl.ma,Telecom
-SynapseConsulting SARL,Informatique,Grande Entreprise,Tanger,www.synapseconsultingsarl.ma,Banque
-SynapseInnovations SARL,Finance,PME,Tanger,www.synapseinnovationssarl.ma,Autre
-WebServices SA,Assurance,Grande Entreprise,Casablanca,www.webservicessa.ma,Banque
-NexusLabs SARL,Energie,Grande Entreprise,Casablanca,www.nexuslabssarl.ma,Conseil
-TechSolutions LLC,Assurance,Startup,Rabat,www.techsolutionsllc.ma,SSII
-CodeSolutions SA,E-commerce,Grande Entreprise,Tanger,www.codesolutionssa.ma,Conseil
-CodeServices LLC,Finance,PME,Marrakech,www.codeservicesllc.ma,Autre
-NetMaroc SARL,Finance,Grande Entreprise,Rabat,www.netmarocsarl.ma,Telecom
-DataDigital SA,Finance,PME,Ttouan,www.datadigitalsa.ma,Telecom
-CodeServices SAS,Energie,ETI,Agadir,www.codeservicessas.ma,Banque
-CloudDigital LLC,Sante,Startup,Casablanca,www.clouddigitalllc.ma,Telecom
-CloudLabs SARL,Informatique,ETI,Agadir,www.cloudlabssarl.ma,Telecom
-DataMaroc SAS,Assurance,ETI,Casablanca,www.datamarocsas.ma,Autre
-CodeSolutions SARL,Assurance,Startup,Fs,www.codesolutionssarl.ma,Produit
-CyberServices SARL,Assurance,PME,Casablanca,www.cyberservicessarl.ma,Conseil
-NexusConsulting SARL,Finance,Grande Entreprise,El Jadida,www.nexusconsultingsarl.ma,Conseil
-NexusLabs SA,Energie,ETI,Casablanca,www.nexuslabssa.ma,Produit
-WebSystems SA,Sante,ETI,Casablanca,www.websystemssa.ma,SSII
-SynapseSystems SA,Informatique,PME,Fs,www.synapsesystemssa.ma,Conseil
-NetLabs SARL,Informatique,Grande Entreprise,Casablanca,www.netlabssarl.ma,Conseil
-TechServices SARL,Finance,ETI,Casablanca,www.techservicessarl.ma,Autre
-PixelSolutions SAS,Sante,Grande Entreprise,Rabat,www.pixelsolutionssas.ma,Conseil
-NexusConsulting SA,Assurance,Grande Entreprise,Casablanca,www.nexusconsultingsa.ma,Produit
-CodeMaroc LLC,Energie,ETI,Tanger,www.codemarocllc.ma,SSII
-CodeSystems SARL,Sante,Startup,Rabat,www.codesystemssarl.ma,SSII
-NexusDigital SAS,Assurance,ETI,Rabat,www.nexusdigitalsas.ma,Produit
-TechMaroc SAS,Energie,Grande Entreprise,Rabat,www.techmarocsas.ma,SSII
-CloudSystems SAS,Informatique,Grande Entreprise,Casablanca,www.cloudsystemssas.ma,Telecom
-SynapseSystems LLC,E-commerce,PME,Ttouan,www.synapsesystemsllc.ma,Autre
-SynapseSolutions SA,Finance,Startup,Rabat,www.synapsesolutionssa.ma,Produit
-NexusLabs SA,Energie,Grande Entreprise,Tanger,www.nexuslabssa.ma,Conseil
-NexusInnovations SAS,Sante,PME,Casablanca,www.nexusinnovationssas.ma,Conseil
-NetSolutions SARL,Energie,Startup,Tanger,www.netsolutionssarl.ma,Autre
-TechSystems LLC,Finance,ETI,Agadir,www.techsystemsllc.ma,Autre
-WebLabs LLC,Informatique,Startup,Rabat,www.weblabsllc.ma,Conseil
-CyberSolutions SA,Finance,ETI,Rabat,www.cybersolutionssa.ma,Produit
-PixelSolutions SA,Assurance,Grande Entreprise,Casablanca,www.pixelsolutionssa.ma,Produit
-PixelInnovations SAS,Energie,Startup,Rabat,www.pixelinnovationssas.ma,Produit
-DataMaroc SAS,Assurance,Startup,Rabat,www.datamarocsas.ma,Autre
-WebMaroc SARL,Informatique,Startup,Knitra,www.webmarocsarl.ma,SSII
-NetConsulting LLC,E-commerce,PME,Tanger,www.netconsultingllc.ma,Conseil
-TechInnovations SARL,Assurance,Grande Entreprise,Rabat,www.techinnovationssarl.ma,Telecom
-CodeInnovations LLC,Informatique,ETI,Rabat,www.codeinnovationsllc.ma,Telecom
-DataDigital SARL,Finance,ETI,Casablanca,www.datadigitalsarl.ma,Autre
-WebLabs SAS,Energie,PME,Rabat,www.weblabssas.ma,Banque
-DataDigital SA,E-commerce,Startup,Marrakech,www.datadigitalsa.ma,SSII
-PixelDigital LLC,Assurance,Grande Entreprise,Rabat,www.pixeldigitalllc.ma,Banque
-CloudSolutions SAS,Assurance,PME,Oujda,www.cloudsolutionssas.ma,Autre
-CloudInnovations SARL,Assurance,ETI,Casablanca,www.cloudinnovationssarl.ma,Telecom
-CyberMaroc SARL,Informatique,Grande Entreprise,Casablanca,www.cybermarocsarl.ma,Telecom
-DataDigital SA,Assurance,ETI,Oujda,www.datadigitalsa.ma,Autre
-TechLabs LLC,Energie,Grande Entreprise,Tanger,www.techlabsllc.ma,Telecom
-CloudSolutions SARL,Assurance,Grande Entreprise,Casablanca,www.cloudsolutionssarl.ma,Autre
-WebInnovations SARL,Informatique,Startup,Casablanca,www.webinnovationssarl.ma,Banque
-CodeServices SARL,Finance,ETI,Marrakech,www.codeservicessarl.ma,Telecom
-DataMaroc SAS,E-commerce,ETI,Tanger,www.datamarocsas.ma,Conseil
-SynapseLabs LLC,Finance,Startup,Ttouan,www.synapselabsllc.ma,Conseil
-CyberServices SARL,Informatique,PME,Knitra,www.cyberservicessarl.ma,Telecom
-DataConsulting SA,E-commerce,ETI,Tanger,www.dataconsultingsa.ma,Conseil
-CodeSolutions SA,Sante,Startup,Casablanca,www.codesolutionssa.ma,Banque
-CodeConsulting SARL,Informatique,PME,Casablanca,www.codeconsultingsarl.ma,Telecom
-NetConsulting SAS,E-commerce,Grande Entreprise,Casablanca,www.netconsultingsas.ma,Autre
-NexusMaroc SAS,Energie,Grande Entreprise,Marrakech,www.nexusmarocsas.ma,Autre
-PixelConsulting LLC,Assurance,PME,Casablanca,www.pixelconsultingllc.ma,Telecom
-WebInnovations SARL,Informatique,Startup,Tanger,www.webinnovationssarl.ma,Telecom
-WebSystems SAS,Energie,Startup,Agadir,www.websystemssas.ma,Conseil
-NexusDigital SAS,Assurance,Startup,Casablanca,www.nexusdigitalsas.ma,Conseil
-SynapseSolutions SA,Sante,ETI,Rabat,www.synapsesolutionssa.ma,Telecom
-CyberDigital LLC,Energie,Startup,Tanger,www.cyberdigitalllc.ma,Autre
-TechDigital SAS,Sante,Startup,Marrakech,www.techdigitalsas.ma,Banque
-CloudSystems SARL,Informatique,PME,Rabat,www.cloudsystemssarl.ma,Telecom
-CodeSolutions SA,Energie,ETI,Casablanca,www.codesolutionssa.ma,Autre
-NetDigital SA,Energie,PME,Tanger,www.netdigitalsa.ma,Produit
-NetSystems SAS,Finance,PME,Rabat,www.netsystemssas.ma,Autre
-TechInnovations SAS,Assurance,Grande Entreprise,Mekns,www.techinnovationssas.ma,Autre
-PixelInnovations SAS,E-commerce,ETI,Casablanca,www.pixelinnovationssas.ma,SSII
-NexusSystems SARL,Sante,ETI,Knitra,www.nexussystemssarl.ma,Produit
-CyberDigital SARL,Finance,Grande Entreprise,Casablanca,www.cyberdigitalsarl.ma,Produit
-PixelInnovations SARL,Sante,Grande Entreprise,Rabat,www.pixelinnovationssarl.ma,Telecom
-WebLabs LLC,E-commerce,ETI,Mohammedia,www.weblabsllc.ma,Telecom
-WebDigital SAS,E-commerce,Grande Entreprise,Rabat,www.webdigitalsas.ma,SSII
-DataSolutions SA,Finance,Grande Entreprise,Rabat,www.datasolutionssa.ma,Conseil
-CyberMaroc SARL,Energie,Grande Entreprise,Casablanca,www.cybermarocsarl.ma,SSII
-DataDigital SAS,Sante,ETI,Casablanca,www.datadigitalsas.ma,SSII
-NexusSystems SA,E-commerce,ETI,Fs,www.nexussystemssa.ma,Telecom
-CodeDigital LLC,Informatique,ETI,Rabat,www.codedigitalllc.ma,Produit
-NexusConsulting LLC,Informatique,PME,Rabat,www.nexusconsultingllc.ma,Telecom
-NexusDigital SA,Finance,ETI,Casablanca,www.nexusdigitalsa.ma,Autre
-TechLabs LLC,Finance,PME,Casablanca,www.techlabsllc.ma,Produit
-NexusConsulting LLC,E-commerce,ETI,Settat,www.nexusconsultingllc.ma,Banque
-NetInnovations SAS,Sante,Startup,Casablanca,www.netinnovationssas.ma,Banque
-CodeServices SARL,Energie,Grande Entreprise,Casablanca,www.codeservicessarl.ma,Produit
-WebServices LLC,Informatique,PME,Tanger,www.webservicesllc.ma,Conseil
-CloudMaroc SA,Informatique,ETI,Casablanca,www.cloudmarocsa.ma,Autre
-CodeServices SAS,E-commerce,PME,Agadir,www.codeservicessas.ma,Produit
-WebConsulting SAS,Sante,Startup,Casablanca,www.webconsultingsas.ma,Telecom
-NetInnovations SAS,E-commerce,PME,Tanger,www.netinnovationssas.ma,Conseil
-PixelServices SARL,Sante,Startup,Ttouan,www.pixelservicessarl.ma,Produit
-DataInnovations SAS,Informatique,Grande Entreprise,Casablanca,www.datainnovationssas.ma,Produit
-TechDigital LLC,Assurance,ETI,Casablanca,www.techdigitalllc.ma,Autre
-DataLabs SA,Finance,PME,Rabat,www.datalabssa.ma,Autre
-NexusLabs SAS,E-commerce,Startup,Casablanca,www.nexuslabssas.ma,Banque
-CloudMaroc SARL,Energie,PME,Casablanca,www.cloudmarocsarl.ma,SSII
-TechMaroc SA,Finance,ETI,Tanger,www.techmarocsa.ma,Autre
-TechMaroc LLC,Sante,Grande Entreprise,Knitra,www.techmarocllc.ma,Produit
-DataSolutions SARL,E-commerce,Startup,Fs,www.datasolutionssarl.ma,Telecom
-CloudInnovations SAS,Energie,PME,Casablanca,www.cloudinnovationssas.ma,SSII
-CodeLabs SA,E-commerce,PME,Rabat,www.codelabssa.ma,Conseil
+DigitServices SA,E-commerce,PME,Kénitra,www.digitservices.ma,ESN (SSII)
+DataSolutions SARL,Industrie,Grande Entreprise,Tanger,www.datasolutions.ma,ESN (SSII)
+AtlasConsulting SA,E-commerce,PME,Kénitra,www.atlasconsulting.ma,Département IT Interne
+OmniTechnologies SARL,Banque/Finance,PME,Casablanca,www.omnitechnologies.ma,Département IT Interne
+TechSoft SARL,E-commerce,PME,Casablanca,www.techsoft.ma,ESN (SSII)
+DataData SARL,Industrie,Startup,Casablanca,www.datadata.ma,Département IT Interne
+SmartConsulting SARL,Télécoms,Startup,Fès,www.smartconsulting.ma,ESN (SSII)
+DigitIngénierie SARL,Industrie,PME,Casablanca,www.digitingénierie.ma,ESN (SSII)
+TechSolutions Morocco,Industrie,PME,Casablanca,www.techsolutions.ma,Editeur de Logiciels
+Inetum SAS,Industrie,Grande Entreprise,Casablanca,www.inetum.ma,ESN (SSII)
+MedIngénierie SARL,Banque/Finance,PME,Agadir,www.medingénierie.ma,Cabinet de Conseil
+DXC Technology Morocco,Télécoms,Grande Entreprise,Rabat,www.dxctechnology.ma,ESN (SSII)
+IBM SAS,Assurance,Grande Entreprise,Casablanca,www.ibm.ma,ESN (SSII)
+SidiSolutions SARL,Banque/Finance,PME,Casablanca,,Département IT Interne
+AtlasIngénierie SARL,E-commerce,PME,CASABLANCA,www.atlasingénierie.ma,ESN (SSII)
+Omnidata SARL,,PME,Casablanca,www.omnidata.ma,Cabinet de Conseil
+SidiSoft SARL,Banque/Finance,PME,Casablanca,,ESN (SSII)
+DigitSoft SA,Industrie,Grande Entreprise,Casablanca,,Cabinet de Conseil
+OmniSoft SARL,Assurance,Startup, Rabat,www.omnisoft.ma,ESN (SSII)
+MedConsulting SARL,Secteur Public,PME,Tanger,www.medconsulting.ma,Département IT Interne
+SmartTechnologies SARL,E-commerce,PME,Casablanca,www.smarttechnologies.ma,ESN (SSII)
+AtlasServices SARL,Industrie,PME,Rabat,www.atlasservices.ma,Editeur de Logiciels
+MedSoft SARL,Industrie,Grande Entreprise,Oujda,www.medsoft.ma,Editeur de Logiciels
+MaghrebData SARL,Banque/Finance,PME,Casablanca,www.maghrebdata.ma,ESN (SSII)
+OmniSystems SARL,Industrie,PME,Rabat,www.omnisystems.ma,ESN (SSII)
+MaghrebIngénierie SARL,Secteur Public,PME,Rabat,www.maghrebingénierie.ma,ESN (SSII)
+SmartConsulting SARL,Banque/Finance,PME, Casablanca,www.smartconsulting.ma,Cabinet de Conseil
+MarocSystems SARL,Secteur Public,Startup,Meknès,www.marocsystems.ma,Cabinet de Conseil
+Sopra Steria SARL,Secteur Public,PME,Casablanca,,ESN (SSII)
+SmartSystems SARL,Secteur Public,PME,Casablanca,www.smartsystems.ma,Cabinet de Conseil
+Oracle SA,Télécoms,Grande Entreprise,Casablanca,,ESN (SSII)
+AtlasSoft SARL,Secteur Public,PME, Tanger,,ESN (SSII)
+OmniIngénierie SARL,Banque/Finance,Startup,Casablanca,www.omniingénierie.ma,Cabinet de Conseil
+DXC Technology SAS,,Grande Entreprise,Rabat,www.dxctechnology.ma,ESN (SSII)
+TechSystems SARL,Industrie,Startup,Marrakech,www.techsystems.ma,Editeur de Logiciels
+Dell SAS,Assurance,Grande Entreprise,Rabat,www.dell.ma,ESN (SSII)
+Intelcia SA,Assurance,PME, Casablanca,www.intelcia.ma,ESN (SSII)
+OmniData SA,Industrie,PME,Casablanca,www.omnidata.ma,Cabinet de Conseil
+SmartServices SARL,Industrie,Startup,Casablanca,www.smartservices.ma,ESN (SSII)
+MarocIngénierie SA,Assurance,PME,Rabat,www.marocingénierie.ma,ESN (SSII)
+MaghrebIngénierie SARL,E-commerce,PME,Casablanca,www.maghrebingénierie.ma,ESN (SSII)
+Omnidata SARL,Assurance,Startup,Casablanca,www.omnidata.ma,Editeur de Logiciels
+MarocSystems Morocco,Industrie,PME,Tanger,www.marocsystems.ma,Cabinet de Conseil
+OmniSystems SAS,Assurance,Startup,Tanger,www.omnisystems.ma,ESN (SSII)
+OmniSystems SA,Banque/Finance,PME,Casablanca,www.omnisystems.ma,Cabinet de Conseil
+MarocData SARL,Télécoms,ETI,Rabat,www.marocdata.ma,ESN (SSII)
+SmartData SAS,Secteur Public,PME,Rabat,www.smartdata.ma,ESN (SSII)
+Omnidata SARL,E-commerce,PME,Casablanca,,Editeur de Logiciels
+SmartSystems SA,Secteur Public,Startup,Kénitra,www.smartsystems.ma,Département IT Interne
+DataData SARL,Télécoms,PME,Casablanca,www.datadata.ma,Cabinet de Conseil
+MedSolutions SARL,Banque/Finance,Startup,Casablanca,www.medsolutions.ma,Cabinet de Conseil
+Sopra Steria SARL,E-commerce,PME,Rabat,www.soprasteria.ma,ESN (SSII)
+SmartTechnologies SARL,Banque/Finance,PME,Casablanca,www.smarttechnologies.ma,Cabinet de Conseil
+Label'Vie IT SARL,Secteur Public,PME,Casablanca,,Cabinet de Conseil
+Capgemini Morocco,Télécoms,Grande Entreprise,Casablanca,www.capgemini.ma,ESN (SSII)
+DigitSolutions SA,Secteur Public,Startup,Casablanca,www.digitsolutions.ma,ESN (SSII)
+DataServices SARL,Télécoms,Startup,Rabat,www.dataservices.ma,Cabinet de Conseil
+TechIngénierie SARL,,Startup,Casablanca,www.techingénierie.ma,ESN (SSII)
+MedSystems SARL,Industrie,ETI,Oujda,www.medsystems.ma,Editeur de Logiciels
+MaghrebIngénierie SARL,,Grande Entreprise,Casablanca,www.maghrebingénierie.ma,Cabinet de Conseil
+AtlasTechnologies SARL,Assurance,Startup,Casablanca,www.atlastechnologies.ma,ESN (SSII)
+SidiTechnologies SA,Assurance,Startup,Casablanca,www.siditechnologies.ma,ESN (SSII)
+DigitData SARL,Banque/Finance,PME,Casablanca,www.digitdata.ma,Editeur de Logiciels
+Inetum Morocco,Assurance,Grande Entreprise,Rabat,www.inetum.ma,ESN (SSII)
+MarocSystems SARL,Banque/Finance,PME,Casablanca,,Editeur de Logiciels
+DataIngénierie SARL,Assurance,PME,Casablanca,www.dataingénierie.ma,ESN (SSII)
+DataSolutions SAS,Secteur Public,Grande Entreprise,Tanger,,Cabinet de Conseil
+DigitTechnologies SARL,,PME,Rabat,www.digittechnologies.ma,Cabinet de Conseil
+OmniSolutions SAS,E-commerce,Startup,Casablanca,www.omnisolutions.ma,Editeur de Logiciels
+MarocSolutions SARL,Assurance,PME,Marrakech,www.marocsolutions.ma,ESN (SSII)
+MarocIngénierie SARL,Banque/Finance,PME,Tanger,www.marocingénierie.ma,Cabinet de Conseil
+MedData SA,Assurance,Startup,Casablanca,www.meddata.ma,ESN (SSII)
+CGI SAS,E-commerce,Grande Entreprise,Casablanca,www.cgi.ma,ESN (SSII)
+MedSoft SARL,E-commerce,PME,Casablanca,www.medsoft.ma,Cabinet de Conseil
+DigitServices SARL,Télécoms,Grande Entreprise,Casablanca,www.digitservices.ma,ESN (SSII)
+MaghrebServices SARL,Assurance,Startup,Kénitra,www.maghrebservices.ma,ESN (SSII)
+DXC Technology SA,Secteur Public,Grande Entreprise,Casablanca,,ESN (SSII)
+SmartConsulting SARL,Banque/Finance,Startup,Casablanca,www.smartconsulting.ma,ESN (SSII)
+TechIngénierie SA,Industrie,PME,Casablanca,www.techingénierie.ma,ESN (SSII)
+DataIngénierie SA,,PME,Casablanca,www.dataingénierie.ma,Cabinet de Conseil
+DigitSoft SARL,Industrie,ETI,Rabat,,Cabinet de Conseil
+DataIngénierie SARL,Industrie,PME,Casablanca,www.dataingénierie.ma,Editeur de Logiciels
+TechTechnologies SARL,Télécoms,PME,Casablanca,www.techtechnologies.ma,ESN (SSII)
+AtlasSoft SARL,Secteur Public,Grande Entreprise,Rabat,www.atlassoft.ma,Département IT Interne
+MarocConsulting SARL,E-commerce,PME,Casablanca,,Editeur de Logiciels
+SmartSystems SARL,,PME,Fès,www.smartsystems.ma,ESN (SSII)
+TechIngénierie SARL,E-commerce,PME,Casablanca,www.techingénierie.ma,ESN (SSII)
+DataTechnologies SARL,Banque/Finance,PME, Casablanca,,Cabinet de Conseil
+MaghrebSoft SAS,Secteur Public,ETI,Tanger,,ESN (SSII)
+SQLI SA,Banque/Finance,Grande Entreprise,Casablanca,www.sqli.ma,ESN (SSII)
+OmniTechnologies SAS,Télécoms,Grande Entreprise,Casablanca,,ESN (SSII)
+Alten Morocco,Industrie,Grande Entreprise,Rabat,www.alten.ma,ESN (SSII)
+MaghrebData SAS,Banque/Finance,PME,Casablanca,www.maghrebdata.ma,ESN (SSII)
+SidiSolutions SA,Industrie,PME,Casablanca,www.sidisolutions.ma,Editeur de Logiciels
+AtlasServices SARL,Industrie,Startup,Casablanca,www.atlasservices.ma,Cabinet de Conseil
+SmartSystems SARL,Assurance,Grande Entreprise,Casablanca,www.smartsystems.ma,ESN (SSII)
+SidiSoft SARL,Banque/Finance,ETI,Rabat,www.sidisoft.ma,ESN (SSII)
+M2M Group SARL,E-commerce,Startup,Casablanca,www.m2mgroup.ma,Editeur de Logiciels
+Intelcia SARL,Télécoms,PME,Casablanca,www.intelcia.ma,Département IT Interne
+Atos Morocco,Secteur Public,Grande Entreprise,Rabat,,ESN (SSII)
+MedTechnologies SARL,Secteur Public,Startup,Rabat,www.medtechnologies.ma,ESN (SSII)
+MaghrebServices SA,E-commerce,PME,Meknès,www.maghrebservices.ma,Editeur de Logiciels
+IBM SAS,Assurance,Grande Entreprise,Casablanca,www.ibm.ma,ESN (SSII)
+OmniSoft SARL,Assurance,PME,Casablanca,www.omnisoft.ma,Editeur de Logiciels
+SQLI Morocco,Banque/Finance,Grande Entreprise,Casablanca,www.sqli.ma,ESN (SSII)
+OmniTechnologies SARL,E-commerce,Grande Entreprise,Casablanca,,ESN (SSII)
+M2M Group SARL,Secteur Public,PME,Rabat,www.m2mgroup.ma,ESN (SSII)
+SmartConsulting Morocco,Banque/Finance,PME,Casablanca,www.smartconsulting.ma,Editeur de Logiciels
+OmniTechnologies SARL,,PME,Rabat,www.omnitechnologies.ma,Editeur de Logiciels
+SQLI SAS,Industrie,Grande Entreprise,Casablanca,www.sqli.ma,ESN (SSII)
+SidiConsulting SARL,Banque/Finance,PME,Rabat,www.sidiconsulting.ma,Editeur de Logiciels
+Capgemini Morocco,,Grande Entreprise,Casablanca,www.capgemini.ma,ESN (SSII)
+SidiData SARL,Banque/Finance,Grande Entreprise,Casablanca,www.sididata.ma,ESN (SSII)
+Dell Morocco,Assurance,Grande Entreprise,Casablanca,www.dell.ma,ESN (SSII)
+MarocIngénierie SARL,E-commerce,PME, Rabat,www.marocingénierie.ma,ESN (SSII)
+TechConsulting SARL,Télécoms,PME,Rabat,www.techconsulting.ma,Editeur de Logiciels
+DigitSoft SARL,Télécoms,Startup,Casablanca,www.digitsoft.ma,ESN (SSII)
+SidiData SARL,Secteur Public,Startup,Casablanca,www.sididata.ma,Cabinet de Conseil
+DataSystems SA,Télécoms,Grande Entreprise,Rabat,www.datasystems.ma,Cabinet de Conseil
+Oracle Morocco,Secteur Public,Grande Entreprise,Rabat,www.oracle.ma,ESN (SSII)
+Oracle SAS,Banque/Finance,Grande Entreprise,Casablanca,,ESN (SSII)
+SidiIngénierie Morocco,Industrie,PME,Casablanca,www.sidiingénierie.ma,Département IT Interne
+SmartSoft SARL,Assurance,PME,Casablanca,www.smartsoft.ma,ESN (SSII)
+MarocConsulting SARL,Télécoms,Startup,Casablanca,,ESN (SSII)
+SmartSolutions SARL,,PME,Casablanca,www.smartsolutions.ma,Cabinet de Conseil
+AtlasTechnologies SARL,Assurance,PME,Agadir,www.atlastechnologies.ma,ESN (SSII)
+MedSystems Morocco,Banque/Finance,PME,Casablanca,www.medsystems.ma,ESN (SSII)
+DigitTechnologies SARL,Industrie,PME,Casablanca,www.digittechnologies.ma,ESN (SSII)
+Capgemini SA,Banque/Finance,Grande Entreprise,Casablanca,www.capgemini.ma,ESN (SSII)
+TechTechnologies SARL,E-commerce,Grande Entreprise,Rabat,www.techtechnologies.ma,Editeur de Logiciels
+DataServices SARL,,PME, Casablanca,www.dataservices.ma,Editeur de Logiciels
+SmartTechnologies SAS,Télécoms,Grande Entreprise,Casablanca,www.smarttechnologies.ma,Cabinet de Conseil
+AtlasServices SARL,,Startup,Casablanca,www.atlasservices.ma,Département IT Interne
+TechData SARL,Assurance,ETI,Casablanca,www.techdata.ma,ESN (SSII)
+SmartTechnologies SARL,Industrie,Startup,Rabat,www.smarttechnologies.ma,Editeur de Logiciels
+SmartTechnologies SA,Banque/Finance,PME,Meknès,www.smarttechnologies.ma,ESN (SSII)
+DigitData SARL,Secteur Public,PME,Casablanca,www.digitdata.ma,ESN (SSII)
+M2M Group SARL,Banque/Finance,ETI,Casablanca,www.m2mgroup.ma,ESN (SSII)
+DataData SARL,E-commerce,PME,Casablanca,www.datadata.ma,ESN (SSII)
+MaghrebServices SARL,Industrie,Grande Entreprise,Agadir,www.maghrebservices.ma,Cabinet de Conseil
+MaghrebData SARL,Secteur Public,Startup,Oujda,www.maghrebdata.ma,ESN (SSII)
+DataIngénierie SARL,Secteur Public,ETI,Casablanca,www.dataingénierie.ma,ESN (SSII)
+SidiConsulting SAS,Secteur Public,Grande Entreprise,Casablanca,www.sidiconsulting.ma,ESN (SSII)
+MaghrebData SARL,E-commerce,Startup,Tanger,www.maghrebdata.ma,ESN (SSII)
+SidiSoft SARL,E-commerce,PME,Casablanca,www.sidisoft.ma,ESN (SSII)
+Atos SAS,Banque/Finance,Grande Entreprise,Rabat,www.atos.ma,ESN (SSII)
+MaghrebSolutions SARL,Banque/Finance,ETI,Casablanca,www.maghrebsolutions.ma,Cabinet de Conseil
+Omnidata SARL,Industrie,PME,Tanger,,Cabinet de Conseil
+MedIngénierie SARL,Industrie,PME,Meknès,www.medingénierie.ma,Cabinet de Conseil
+AtlasSystems SARL,Banque/Finance,ETI,Casablanca,www.atlassystems.ma,ESN (SSII)
+TechData SARL,Assurance,PME,Casablanca,www.techdata.ma,Cabinet de Conseil
+SmartTechnologies SAS,Assurance,PME,Casablanca,www.smarttechnologies.ma,ESN (SSII)
+TechSoft SARL,Assurance,PME,Casablanca,www.techsoft.ma,ESN (SSII)
+DigitSoft SARL,Secteur Public,Startup,Casablanca,www.digitsoft.ma,Cabinet de Conseil
+MaghrebIngénierie SARL,Banque/Finance,PME,Casablanca,www.maghrebingénierie.ma,ESN (SSII)
+SmartIngénierie SARL,Télécoms,PME,Casablanca,www.smartingénierie.ma,Cabinet de Conseil
+SQLI SA,Télécoms,Grande Entreprise,Rabat,www.sqli.ma,ESN (SSII)
+SmartConsulting SARL,Secteur Public,PME,Tanger,www.smartconsulting.ma,ESN (SSII)
+MaghrebIngénierie SARL,Assurance,Startup,Casablanca,,ESN (SSII)
+IBM SA,E-commerce,Grande Entreprise,Casablanca,www.ibm.ma,ESN (SSII)
+SmartServices SARL,Secteur Public,PME,CASABLANCA,www.smartservices.ma,Cabinet de Conseil
+Dell Morocco,,Grande Entreprise,Casablanca,www.dell.ma,ESN (SSII)
+DigitData SARL,Assurance,PME,Rabat,www.digitdata.ma,ESN (SSII)
+HPS SARL,Industrie,Startup,Rabat,www.hps.ma,ESN (SSII)
+SmartIngénierie SARL,Banque/Finance,PME,Casablanca,www.smartingénierie.ma,Département IT Interne
+SmartConsulting SA,,Grande Entreprise,Casablanca,www.smartconsulting.ma,Cabinet de Conseil
+AtlasSystems SARL,Banque/Finance,Startup,Rabat,www.atlassystems.ma,ESN (SSII)
+Capgemini SAS,Télécoms,Grande Entreprise,Rabat,www.capgemini.ma,ESN (SSII)
+CGI SAS,Industrie,Grande Entreprise,Rabat,www.cgi.ma,ESN (SSII)
+MedServices SARL,Banque/Finance,PME,Rabat,www.medservices.ma,Editeur de Logiciels
+MedServices SARL,Industrie,PME, Casablanca,www.medservices.ma,Editeur de Logiciels
+MedConsulting SA,Banque/Finance,Startup,Casablanca,www.medconsulting.ma,ESN (SSII)
+MaghrebSolutions SARL,Secteur Public,PME,Rabat,www.maghrebsolutions.ma,Editeur de Logiciels
+SmartTechnologies SARL,Assurance,Startup,Casablanca,,Cabinet de Conseil
+OmniSolutions SARL,E-commerce,PME,Casablanca,www.omnisolutions.ma,Editeur de Logiciels
+DXC Technology SAS,E-commerce,Grande Entreprise,Casablanca,www.dxctechnology.ma,ESN (SSII)
+DXC Technology Morocco,Assurance,Grande Entreprise,Casablanca,www.dxctechnology.ma,ESN (SSII)
+Oracle SAS,Banque/Finance,Grande Entreprise,Rabat,www.oracle.ma,ESN (SSII)
+MedSolutions SARL,E-commerce,PME, Casablanca,www.medsolutions.ma,ESN (SSII)
+Intelcia SARL,Assurance,PME,CASABLANCA,,Editeur de Logiciels
+MedServices SA,Banque/Finance,PME,Casablanca,www.medservices.ma,ESN (SSII)
+TechConsulting SARL,Assurance,PME,Casablanca,www.techconsulting.ma,ESN (SSII)
+TechSystems SARL,Télécoms,PME,Casablanca,www.techsystems.ma,Département IT Interne
+TechSoft SARL,Industrie,PME,Casablanca,www.techsoft.ma,ESN (SSII)
+MedSolutions SAS,Secteur Public,Startup,Casablanca,www.medsolutions.ma,ESN (SSII)
+MarocData SARL,Télécoms,Startup,Casablanca,www.marocdata.ma,ESN (SSII)
+OmniTechnologies SARL,Assurance,PME,Casablanca,www.omnitechnologies.ma,ESN (SSII)
+Inetum SA,Secteur Public,Grande Entreprise,Casablanca,www.inetum.ma,ESN (SSII)
+DigitConsulting SARL,E-commerce,Startup,Casablanca,www.digitconsulting.ma,Editeur de Logiciels
+SmartServices SA,Assurance,PME,Casablanca,www.smartservices.ma,ESN (SSII)
+DXC Technology SA,E-commerce,Grande Entreprise, Rabat,,ESN (SSII)
+Inetum Morocco,Télécoms,Grande Entreprise,Casablanca,www.inetum.ma,ESN (SSII)
+MaghrebSystems SARL,Industrie,PME,Casablanca,www.maghrebsystems.ma,ESN (SSII)
+OmniSoft SARL,Banque/Finance,ETI,Casablanca,,Cabinet de Conseil
+CGI SA,Secteur Public,Grande Entreprise,CASABLANCA,www.cgi.ma,ESN (SSII)
+Oracle SA,E-commerce,Grande Entreprise,Rabat,www.oracle.ma,ESN (SSII)
+TechData SARL,E-commerce,Startup,Casablanca,www.techdata.ma,ESN (SSII)
+OmniServices SARL,Assurance,PME,Tanger,,Cabinet de Conseil
+TechConsulting Morocco,Banque/Finance,PME,Casablanca,www.techconsulting.ma,ESN (SSII)
+DataIngénierie SARL,Télécoms,PME,Casablanca,www.dataingénierie.ma,Editeur de Logiciels
