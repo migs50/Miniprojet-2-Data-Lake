@@ -1,5 +1,5 @@
 # Projet Data Lake — Mexora RH Intelligence
-
+# réalisé par: khadija dridri et Khouala Bouchame
 Ce projet implémente une architecture Data Lake complète pour ingérer, transformer et analyser les offres d'emploi IT au Maroc (scrappées depuis Rekrute, LinkedIn et MarocAnnonce).
 
 ## 🗂 Structure du Projet
